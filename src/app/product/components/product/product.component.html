@@ -1,0 +1,12 @@
+<div class="card h-100">
+    <img [src]="data.image" class="card-img-top" alt="{{ data.title }}" style="height: 200px; object-fit: cover;" />
+
+    <div class="card-body">
+        <h5 class="card-title">{{ data.title }}</h5>
+        <p class="card-text text-truncate">{{ data.description }}</p>
+    </div>
+    <div class="card-footer d-flex justify-content-between align-datas-center">
+        <span class="text-muted">Prix : {{ data.price }} DNT</span>
+        <button class="btn btn-primary btn-sm">Add to Cart</button>
+    </div>
+</div>
